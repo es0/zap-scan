@@ -38,7 +38,7 @@ def progress(count, total, status=''):
 
 # Importing the context using the full file path.
 
-print("IMPORTING CONTEXT")
+print("IMPORTING API KEY")
 
 zap.context.import_context('${workspace}/sbir-security/sbir.context', apikey = api)
 
